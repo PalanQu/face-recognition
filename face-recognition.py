@@ -72,6 +72,7 @@ generator = triplet_generator()
 
 nn4_small2_train.compile(loss=None, optimizer='adam')
 nn4_small2_train.fit_generator(generator, epochs=10, steps_per_epoch=100)
+nn4_small2_train.save("models/nn4_models.mdl")
 
 # Please note that the current implementation of the generator only generates 
 # random image data. The main goal of this code snippet is to demonstrate 

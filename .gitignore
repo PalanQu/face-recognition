@@ -1,3 +1,7 @@
 .idea
 *.iml
 *-checkpoint.ipynb
+.DS_Store
+.vscode
+__pycache__
+*.dat
